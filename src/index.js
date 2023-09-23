@@ -11,5 +11,5 @@ const rootContainer = ReactDOM.createRoot(root);
 rootContainer.render(
   <Provider store={store}>
     <App />
-  </Provider>
+  </Provider>,
 );
